@@ -16,9 +16,9 @@ int main(void)
 	int n;
 	int x;
 	x = 0;
+	srand(time(0));
 	while (x < 10)
 	{
-		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 		if (n > 0)
 			printf("%d is positive \n" , n);
