@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+	printf("My main function");
 	return (0);
 }
 
