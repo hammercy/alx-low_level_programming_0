@@ -1,10 +1,9 @@
-	.file	"2-main.c"
+	.file	"3-main.c"
 	.text
 	.section	.rodata
+	.align 8
 .LC0:
-	.string	"export CFILE=0-main.c "
-.LC1:
-	.string	"./0-preprocessor "
+	.string	"export CFILE=3-main.c; ./0-name"
 	.text
 	.globl	main
 	.type	main, @function
@@ -18,8 +17,6 @@ main:
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
 	leaq	.LC0(%rip), %rdi
-	call	puts@PLT
-	leaq	.LC1(%rip), %rdi
 	call	puts@PLT
 	movl	$0, %eax
 	popq	%rbp
