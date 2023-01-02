@@ -5,10 +5,14 @@
 
 
 /**
- * main-generate random number , evluate negative or positive
- * @n:a parameter to be checked
+ * main - evluate negative or positive
+ * @n: a parameter to be checked
  *
- * return:0  always when successful
+ * Description: The function generate
+ * a random number then checks
+ * whether it is negative or positive
+ * and prints the result.
+ * return: 0 always when successful
  */
 
 int main(void)
