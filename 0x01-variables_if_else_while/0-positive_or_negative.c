@@ -5,7 +5,7 @@
 
 
 /**
- * main-generate random number and evluate if it negative or positive
+ * main-generate random number , evluate negative or positive
  * @n:a parameter to be checked
  *
  * return:0  always when successful
