@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	printf("My main function");
+	printf("export CFILE=0-main.c \n");
+	printf("./0-preprocessor \n");
+	printf("tail c \n");
 	return (0);
 }
 
