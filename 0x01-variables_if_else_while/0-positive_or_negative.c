@@ -6,11 +6,9 @@
 
 /**
  * main-generate random number and evluate if it negative or positive
- * @n:a parameter that hold random number generated and checked
+ * @n:a parameter to be checked
  *
- * rand: generate random number
- *
- * return: always 0 when successful
+ * return:0  always when successful
  */
 
 int main(void)
@@ -24,7 +22,6 @@ int main(void)
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else
-		printf("%d is zero\n", n);
-		  
+		printf("%d is zero\n", n);		  
 	return (0);
 }
