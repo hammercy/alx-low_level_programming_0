@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* more header include here */
 
 /**
  * main - prints lower case alphabet
@@ -8,9 +9,11 @@
  * finish
  * Return: 0 always when successful
  */
+
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 		putchar(ch);
